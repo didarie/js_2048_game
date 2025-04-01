@@ -4,7 +4,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #252526;
+  background: #FBF8EF;
   font-family: sans-serif;
   font-size: 24px;
   font-weight: 900;
@@ -12,7 +12,7 @@ body {
 }
 
 .field-cell {
-  background: #595959;
+  background: #D6CDC4;
   width: 75px;
   height: 75px;
   border-radius: 5px;
@@ -22,55 +22,57 @@ body {
   vertical-align: center;
   user-select: none;
 
-  transition: all 0.2s ease;
+  transition: all 0.5s ease;
 
   &--2 {
-    background: #0c47677e;
+    background: #EEE4DA;
+    color: #776E65;
   }
 
   &--4 {
-    background: #235a68;
+    background: #EDE0C8;
+    color: #776E65;
   }
 
   &--8 {
-    background: #315b52;
+    background: #F2B179;
   }
 
   &--16 {
-    background: #566e3d;
+    background: #F59563;
   }
 
   &--32 {
-    background: #888945;
+    background: #F67C5F;
   }
 
   &--64 {
-    background: #a19749;
+    background: #F65E3B;
   }
 
   &--128 {
-    background: #dc9f36;
+    background: #EDCF72;
   }
 
   &--256 {
-    background: #ed9c2b;
+    background: #EDCC61;
   }
 
   &--512 {
-    background: #fe9920;
+    background: #EDC850;
   }
 
   &--1024 {
-    background: #fc8921;
+    background: #EDC53F;
   }
 
   &--2048 {
-    background: #fa7921;
+    background: #EDC22E;
   }
 }
 
 .game-field {
-  background: #404040;
+  background: #BBADA0;
   border-spacing: 10px;
   border-radius: 5px;
 }
@@ -85,7 +87,7 @@ body {
 }
 
 h1 {
-  background: #fa7921;
+  background: #EDC22E;
   color: #fff;
   width: 75px;
   height: 75px;
@@ -103,11 +105,11 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #404040;
+  background: #D6CDC4;
   width: 75px;
   height: 75px;
   border-radius: 5px;
-  color: #fff;
+  color: #776E65;
   box-sizing: border-box;
   font-size: 16px;
   margin: 0 8px 0 0;
@@ -154,7 +156,7 @@ h1 {
 .message {
   box-sizing: border-box;
   width: 100%;
-  background: #404040;
+  background: 404040;
   color: #fff;
   padding: 10px;
   text-align: center;
@@ -174,7 +176,7 @@ h1 {
 }
 
 .message-win {
-  background: #fa7921;
+  background: #EDC22E;
   color: #fff;
 }
 
